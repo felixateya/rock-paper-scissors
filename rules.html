@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .center h1{
+            background-image: linear-gradient(to right, #999fd4, #65ffdd, #999fd4);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .center > ul > li{
+            background-image: linear-gradient(to left, #a8f907, #07f9c8, #a8f907);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <section class="main">
+        <diiv class="center" style=" display:flex; flex-direction:column;  align-items:center">
+            <h1 style="text-decoration: underline;font-size: 36px">Game Rules</h1>
+            <ul>
+                <li>Paper beats rock</li>
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats paper</li>
+                <li>It's a tie if both choices are the same</li>
+                <li>Choose your moves wisely😁😀😁</li>
+            </ul>
+        </diiv>
+        <button id="reset" onclick="window.location.href='index.html'">Back to the game....&lArr;</button>
+    </section>
+</body>
+</html>
